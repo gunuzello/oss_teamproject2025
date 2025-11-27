@@ -47,8 +47,8 @@ It is especially useful for:
 How do I get started?
 1. Clone the repository
 ```
-git clone https://github.com/ehdgus4173/CheckMate
-cd CheckMate
+git clone https://github.com/kwon-dohun/oss_teamproject2025
+cd oss_teamproject2025
 ```
 
 2. Run the Frontend
@@ -108,3 +108,4 @@ This structure ensures transparent and scalable collaboration.
 4. Deliver clear explanations and evidence for all decisions.
 5. Build a maintainable, extendable open-source project.
 6. Serve as a reference for learning proper OSS workflows.
+
