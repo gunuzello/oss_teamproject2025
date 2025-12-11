@@ -88,15 +88,25 @@ function UploadPage() {
                     제출할 문서를 요구사항과 비교하여 충족 여부를 분석합니다.
                 </p>
                 <div className="hero-full-divider"/>
-                <div className="steps-text-row">
-                    <div className="step-text">
-                        <span className="step-label">Step 1</span> 문서 업로드
+
+                <div className="step-guide">
+                    <div className="step-item">
+                        <span className="step-badge">Step 1</span>
+                        <span className="step-text">
+                            요구사항 / 제출물 문서를 업로드합니다.
+                        </span>
                     </div>
-                    <div className="step-text">
-                        <span className="step-label">Step 2</span> 자동 분석
+                    <div className="step-item">
+                        <span className="step-badge">Step 2</span>
+                        <span className="step-text">
+                            AI가 문서를 분석하고 평가합니다.
+                        </span>
                     </div>
-                    <div className="step-text">
-                        <span className="step-label">Step 3</span> 결과 확인
+                    <div className="step-item">
+                        <span className="step-badge">Step 3</span>
+                        <span className="step-text">
+                            충족률과 상세 평가 결과를 확인합니다.
+                        </span>
                     </div>
                 </div>
 

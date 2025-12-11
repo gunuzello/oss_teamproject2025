@@ -302,26 +302,57 @@ body {
 }
 
 
-.steps-text-row {
-    width: 100%;
-    max-width: 900px;
-    margin: 40px auto 10px;
-
+/* Step Guide */
+.step-guide {
+    margin-top: 24px;
     display: flex;
+    gap: 12px;
     justify-content: center;
-    gap: 70px;
-    text-align: center;
+    flex-wrap: wrap;
+}
+
+.step-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 8px 16px;
+    border-radius: 999px;
+
+    background: #ffffff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+
+    font-size: 14px;
+    color: #555;
+}
+
+.step-badge {
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #3B63F6;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .step-text {
-    font-size: 16px;
-    color: #444;
-    font-weight: 500;
+    white-space: nowrap;
 }
 
-.step-label {
-    font-size: 17px;
-    font-weight: 700;
-    color: #3B63F6;
-    margin-right: 6px;
+@media (max-width: 768px) {
+    .step-guide {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step-item {
+        width: 100%;
+        max-width: 360px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .step-text {
+        white-space: normal;
+    }
 }
